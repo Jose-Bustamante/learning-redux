@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/bercopy/learning-redux/issues"
   },
-  "homepage": "https://github.com/bercopy/learning-redux#readme"
+  "homepage": "https://github.com/bercopy/learning-redux#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
 }
